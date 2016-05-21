@@ -25,13 +25,13 @@ public class SetUpActivity extends Activity {
 		tport = (EditText)findViewById(R.id.tport);
 		
 
-		name.setText("mac9.iptime.org");// 
-		fPath.setText("sda");//   //
-		dPath.setText("/storage/emulated/0/Download");
-		id.setText("ftp");
-		password.setText("lee0624");
-		fport.setText("9090");
-		tport.setText("9091");
+		name.setText("***.****.***");//DNS NAME 
+		fPath.setText("sda");//   
+		dPath.setText("/storage/emulated/0/Download"); //Android Default Path
+		id.setText("ftp");// Set Your Server User Name
+		password.setText("lee0624");// Server User Name Password
+		fport.setText("9090");//Passive FTP port
+		tport.setText("9091");//Transmission port
 	}
 	
 	public void mOnClick(View v){
