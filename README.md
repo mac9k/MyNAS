@@ -3,7 +3,7 @@ Android App
 
 I used Raspi 2. This is working for server.  
 
-You can available minidlna, vftpd and transmission services.
+You can available minidlna, vftpd and transmission services in my app.
 Setting the pakages in your server and connecting the port in your server.
 In my case ftp : 9090,  trasmission : 9091.
 
